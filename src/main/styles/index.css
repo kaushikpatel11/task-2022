@@ -1,0 +1,92 @@
+body{
+     margin:0;
+     padding:0;
+}
+
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+     border:0!important
+} */
+
+fieldset{
+     border:0!important
+}
+
+.MuiButton-contained{
+     color:#fff!important
+}
+
+.MuiButton-outlined{
+     color:grey!important
+}
+
+/* Triangle 1 css */
+
+.triangle {
+	background-color: #F8BD32;
+	rotate:30deg;
+     position:absolute;
+     right:-650px!important;
+     top:-550px!important;
+     opacity: 0.5!important;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+     width: 50em;
+	height:50em;
+	border-top-right-radius: 30%;
+}
+
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
+
+.MuiBox-root .css-1ebi5ao{
+     z-index: inherit;
+}
+
+/* Triangle 2 css */
+.triangle2 {
+	background-color: #F8BD32;
+	rotate:30deg;
+     position:absolute;
+     right:-650px!important;
+     top:-450px!important;
+}
+.triangle2:before,
+.triangle2:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+
+}
+.triangle2,
+.triangle2:before,
+.triangle2:after {
+     width: 50em;
+	height:50em;
+	border-top-right-radius: 30%;
+}
+
+.triangle2 {
+	transform: rotate(-60deg) skewX(-30deg) scale(1.1,.866);
+}
+.triangle2:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle2:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+}
